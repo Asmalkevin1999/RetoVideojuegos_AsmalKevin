@@ -1,0 +1,15 @@
+config_version=5
+
+[application]
+config/name="Reto 2.1 - Centro de control de entradas"
+run/main_scene="res://scenes/main.tscn"
+
+[display]
+window/size/viewport_width=1152
+window/size/viewport_height=648
+window/size/window_width_override=1152
+window/size/window_height_override=648
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

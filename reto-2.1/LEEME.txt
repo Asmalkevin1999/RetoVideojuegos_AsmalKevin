@@ -1,0 +1,34 @@
+RETO 2.1 - GODOT 4.7.2
+
+COMO ABRIR
+1. Descomprime la carpeta reto-2.1.
+2. Abre Godot 4.7.2.
+3. Pulsa Importar y selecciona el archivo project.godot de esta carpeta.
+4. Abre el proyecto.
+5. Abre scenes/main.tscn.
+6. Ejecuta con F6.
+
+CONTROLES
+- A: mover a la izquierda.
+- D: mover a la derecha.
+- Espacio: mostrar jump = true mientras se mantiene pulsado.
+- Rueda del ratón y clic: comprobar el último evento en el HUD.
+
+IMPORTANTE
+Las acciones jump, move_left y move_right se crean automáticamente en Input Map al iniciar la escena. Después de ejecutar, también puedes revisarlas en Proyecto > Ajustes del proyecto > Mapa de entrada.
+
+Para cambiar la velocidad:
+1. Abre scenes/main.tscn.
+2. Selecciona Player.
+3. En el Inspector, busca la propiedad Speed del script.
+4. Cambia el valor (por ejemplo 300).
+
+Archivos de entrega:
+- ficha.md
+- respuestas.md
+- scenes/main.tscn
+- scenes/player_base.tscn
+- scripts/main.gd
+- scripts/player.gd
+
+Revisa que todo funcione y realiza tu propio commit en GitHub.
